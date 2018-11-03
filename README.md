@@ -1,5 +1,5 @@
-## Welcome to [https://pyomeca.github.io/Documentation/] (Documentation of the Pyomeca project)!
-
+## Welcome to Documentation of the Pyomeca project!
+[https://pyomeca.github.io/Documentation/]
 
 Please follow the links below to navigate to the documentation of each project
 
