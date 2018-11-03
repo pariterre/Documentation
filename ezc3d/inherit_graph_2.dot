@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ezc3d::DataNS::AnalogsNS\l::Channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classezc3d_1_1DataNS_1_1AnalogsNS_1_1Channel.html",tooltip="Channel of an analogous data. "];
+}
