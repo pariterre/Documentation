@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node0 [label="ezc3d::DataNS::Points3dNS\l::Points",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classezc3d_1_1DataNS_1_1Points3dNS_1_1Points.html",tooltip="Points holder for C3D data 3D points data. "];
-}
