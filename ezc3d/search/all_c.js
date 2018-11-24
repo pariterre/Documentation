@@ -10,6 +10,7 @@ var searchData=
   ['nbframes',['nbFrames',['../classezc3d_1_1DataNS_1_1Data.html#adfaa0ed986569aeaf7811acda5d633fb',1,'ezc3d::DataNS::Data::nbFrames()'],['../classezc3d_1_1Header.html#a2628c79021781ec45408a80d5bffa689',1,'ezc3d::Header::nbFrames()']]],
   ['nbgroups',['nbGroups',['../classezc3d_1_1ParametersNS_1_1Parameters.html#aeed16b11a934df6605fd81ecd4a513d1',1,'ezc3d::ParametersNS::Parameters']]],
   ['nbmaxinterpgap',['nbMaxInterpGap',['../classezc3d_1_1Header.html#aa81de84a6a2ccff7ed6c5092b9bc21fc',1,'ezc3d::Header']]],
+  ['nbofzerosbeforeheader',['nbOfZerosBeforeHeader',['../classezc3d_1_1Header.html#aea881135ade5dba426c288cfa6831693',1,'ezc3d::Header']]],
   ['nbparamblock',['nbParamBlock',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a99035e1c2548cbe8bbdf7f735ea216b1',1,'ezc3d::ParametersNS::Parameters']]],
   ['nbparameters',['nbParameters',['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Group.html#a166637a9429c3e4ad6237dd4eb181dfd',1,'ezc3d::ParametersNS::GroupNS::Group']]],
   ['nbpoints',['nbPoints',['../classezc3d_1_1DataNS_1_1Points3dNS_1_1Points.html#a8c41d2a5bc8d2ca42cd93029d39ee8eb',1,'ezc3d::DataNS::Points3dNS::Points']]],

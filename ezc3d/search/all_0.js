@@ -33,6 +33,7 @@ var searchData=
   ['_5fnbanalogsmeasurement',['_nbAnalogsMeasurement',['../classezc3d_1_1Header.html#aa47e224a81a7440a44c12c3b9e3d124f',1,'ezc3d::Header']]],
   ['_5fnbevents',['_nbEvents',['../classezc3d_1_1Header.html#a50c9143838fcc17d1928676935099e35',1,'ezc3d::Header']]],
   ['_5fnbmaxinterpgap',['_nbMaxInterpGap',['../classezc3d_1_1Header.html#a5159fe5e7bb1bd6eaca7324421fa0d86',1,'ezc3d::Header']]],
+  ['_5fnbofzerosbeforeheader',['_nbOfZerosBeforeHeader',['../classezc3d_1_1Header.html#a06a472f783dec3348bb39882a94c335f',1,'ezc3d::Header']]],
   ['_5fnbparamblock',['_nbParamBlock',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a4fa99c5616bd8c3e82f33a3067eeb8f6',1,'ezc3d::ParametersNS::Parameters']]],
   ['_5fparam_5fdata_5ffloat',['_param_data_float',['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#a3a5f5e5b0c79c2cc618392e25792f6b7',1,'ezc3d::ParametersNS::GroupNS::Parameter']]],
   ['_5fparam_5fdata_5fint',['_param_data_int',['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#ac3d212b5a71d6251e51422d749510c47',1,'ezc3d::ParametersNS::GroupNS::Parameter']]],
