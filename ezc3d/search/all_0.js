@@ -27,7 +27,7 @@ var searchData=
   ['_5fislocked',['_isLocked',['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Group.html#a79aa570598e8594cac8e4fa82575bc0c',1,'ezc3d::ParametersNS::GroupNS::Group::_isLocked()'],['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#ab084d4aade760a22f814d11afe2c53fd',1,'ezc3d::ParametersNS::GroupNS::Parameter::_isLocked()']]],
   ['_5fkeylabelpresent',['_keyLabelPresent',['../classezc3d_1_1Header.html#a157f9c69bdc615bdf002f84a6238ead3',1,'ezc3d::Header']]],
   ['_5flastframe',['_lastFrame',['../classezc3d_1_1Header.html#a3c791cdc3b27b09b6f345ae4e008ca37',1,'ezc3d::Header']]],
-  ['_5fname',['_name',['../classezc3d_1_1DataNS_1_1AnalogsNS_1_1Channel.html#a790016bc6509eab2c35b323a162e6bf2',1,'ezc3d::DataNS::AnalogsNS::Channel::_name()'],['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Group.html#a4f420a7113413b8a9757b4580c30d5bd',1,'ezc3d::ParametersNS::GroupNS::Group::_name()'],['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#afaf62b3a3a080de7e939c236ec60ffda',1,'ezc3d::ParametersNS::GroupNS::Parameter::_name()'],['../classezc3d_1_1DataNS_1_1Points3dNS_1_1Point.html#a918e8778251dcae5c6b131a03e595b58',1,'ezc3d::DataNS::Points3dNS::Point::_name()']]],
+  ['_5fname',['_name',['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Group.html#a4f420a7113413b8a9757b4580c30d5bd',1,'ezc3d::ParametersNS::GroupNS::Group::_name()'],['../classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#afaf62b3a3a080de7e939c236ec60ffda',1,'ezc3d::ParametersNS::GroupNS::Parameter::_name()']]],
   ['_5fnb3dpoints',['_nb3dPoints',['../classezc3d_1_1Header.html#ab51083d711dbc6c40eafc6ea8e7110e4',1,'ezc3d::Header']]],
   ['_5fnbanalogbyframe',['_nbAnalogByFrame',['../classezc3d_1_1Header.html#a3f044ef3237fee8c580473bb8191447a',1,'ezc3d::Header']]],
   ['_5fnbanalogsmeasurement',['_nbAnalogsMeasurement',['../classezc3d_1_1Header.html#aa47e224a81a7440a44c12c3b9e3d124f',1,'ezc3d::Header']]],
@@ -43,7 +43,7 @@ var searchData=
   ['_5fparametersstart',['_parametersStart',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a8b69c3ba6e166e64ecdc7b726f5ef8f4',1,'ezc3d::ParametersNS::Parameters']]],
   ['_5fpoints',['_points',['../classezc3d_1_1DataNS_1_1Frame.html#a6dc52ea1859c667e017a54bcb155aa27',1,'ezc3d::DataNS::Frame::_points()'],['../classezc3d_1_1DataNS_1_1Points3dNS_1_1Points.html#aa240e446230eb32ba19552d3fb4d71d8',1,'ezc3d::DataNS::Points3dNS::Points::_points()']]],
   ['_5fprocessortype',['_processorType',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a4c5864dee741f8fd47eb2fc00dbc79d9',1,'ezc3d::ParametersNS::Parameters']]],
-  ['_5freadmatrix',['_readMatrix',['../classezc3d_1_1c3d.html#aa7610e10564520632917c540c6ec7808',1,'ezc3d::c3d']]],
+  ['_5freadmatrix',['_readMatrix',['../classezc3d_1_1c3d.html#af8079a2fcb3398d3af957454e97c72cf',1,'ezc3d::c3d']]],
   ['_5fscalefactor',['_scaleFactor',['../classezc3d_1_1Header.html#aa3572627b388f048afc9abbaf412c270',1,'ezc3d::Header']]],
   ['_5fsubframe',['_subframe',['../classezc3d_1_1DataNS_1_1AnalogsNS_1_1Analogs.html#ad9405a451a9218d310a41a005b1caf5d',1,'ezc3d::DataNS::AnalogsNS::Analogs']]]
 ];
