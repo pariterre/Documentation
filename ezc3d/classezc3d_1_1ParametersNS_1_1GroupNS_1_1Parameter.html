@@ -92,9 +92,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ad3585fe0eee5bc5ab4c2e87107464569"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#ad3585fe0eee5bc5ab4c2e87107464569">write</a> (std::fstream &amp;f, int groupIdx, std::streampos &amp;dataStartPosition) const</td></tr>
 <tr class="memdesc:ad3585fe0eee5bc5ab4c2e87107464569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the parameter to an opened file.  <a href="#ad3585fe0eee5bc5ab4c2e87107464569">More...</a><br /></td></tr>
 <tr class="separator:ad3585fe0eee5bc5ab4c2e87107464569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fe4bd0b960c299efbe52d55732bf5eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#a8fe4bd0b960c299efbe52d55732bf5eb">read</a> (<a class="el" href="classezc3d_1_1c3d.html">ezc3d::c3d</a> &amp;file, int nbCharInName)</td></tr>
-<tr class="memdesc:a8fe4bd0b960c299efbe52d55732bf5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and store a parameter from an opened C3D file.  <a href="#a8fe4bd0b960c299efbe52d55732bf5eb">More...</a><br /></td></tr>
-<tr class="separator:a8fe4bd0b960c299efbe52d55732bf5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa029debc0d22a460500508d2676fed1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#afa029debc0d22a460500508d2676fed1">read</a> (<a class="el" href="classezc3d_1_1c3d.html">c3d</a> &amp;<a class="el" href="classezc3d_1_1c3d.html">c3d</a>, std::fstream &amp;file, int nbCharInName)</td></tr>
+<tr class="memdesc:afa029debc0d22a460500508d2676fed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and store a parameter from an opened C3D file.  <a href="#afa029debc0d22a460500508d2676fed1">More...</a><br /></td></tr>
+<tr class="separator:afa029debc0d22a460500508d2676fed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f2f541becfb7f4e5167bb7dd431a494"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html#a6f2f541becfb7f4e5167bb7dd431a494">name</a> () const</td></tr>
 <tr class="memdesc:a6f2f541becfb7f4e5167bb7dd431a494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the parameter.  <a href="#a6f2f541becfb7f4e5167bb7dd431a494">More...</a><br /></td></tr>
 <tr class="separator:a6f2f541becfb7f4e5167bb7dd431a494"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -436,8 +436,8 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 
 </div>
 </div>
-<a id="a8fe4bd0b960c299efbe52d55732bf5eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fe4bd0b960c299efbe52d55732bf5eb">&#9670;&nbsp;</a></span>read()</h2>
+<a id="afa029debc0d22a460500508d2676fed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa029debc0d22a460500508d2676fed1">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,6 +446,12 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
           <td class="memname">int ezc3d::ParametersNS::GroupNS::Parameter::read </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classezc3d_1_1c3d.html">ezc3d::c3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>c3d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
           <td class="paramname"><em>file</em>, </td>
         </tr>
         <tr>
@@ -465,6 +471,7 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 <p>Read and store a parameter from an opened C3D file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname"><a class="el" href="classezc3d_1_1c3d.html" title="Main class for C3D holder. ">c3d</a></td><td>C3D reference to copy the data in </td></tr>
     <tr><td class="paramname">file</td><td>The file stream already opened with read access </td></tr>
     <tr><td class="paramname">nbCharInName</td><td>The number of character of the parameter name </td></tr>
   </table>

@@ -79,14 +79,6 @@ $(function() {
  <a href="classezc3d_1_1c3d.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="ezc3d_8h_source.html">ezc3d.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for ezc3d::c3d:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classezc3d_1_1c3d.png" usemap="#ezc3d::c3d_map" alt=""/>
-  <map id="ezc3d::c3d_map" name="ezc3d::c3d_map">
-</map>
- </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -108,27 +100,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa04674f5bb457b50f5ade45ccac0bde0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#aa04674f5bb457b50f5ade45ccac0bde0">write</a> (const std::string &amp;filePath) const</td></tr>
 <tr class="memdesc:aa04674f5bb457b50f5ade45ccac0bde0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the C3D to an opened file by calling write method of header, parameter and data.  <a href="#aa04674f5bb457b50f5ade45ccac0bde0">More...</a><br /></td></tr>
 <tr class="separator:aa04674f5bb457b50f5ade45ccac0bde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add76f668ac7e2bb470017cd808ec98e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#add76f668ac7e2bb470017cd808ec98e6">readInt</a> (unsigned int nByteToRead, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
-<tr class="memdesc:add76f668ac7e2bb470017cd808ec98e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an integer of nByteToRead bytes at the position current + nByteFromPrevious from a file.  <a href="#add76f668ac7e2bb470017cd808ec98e6">More...</a><br /></td></tr>
-<tr class="separator:add76f668ac7e2bb470017cd808ec98e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07661231033b2ee19ed55b2ba44fdd05"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a07661231033b2ee19ed55b2ba44fdd05">readUint</a> (unsigned int nByteToRead, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
-<tr class="memdesc:a07661231033b2ee19ed55b2ba44fdd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a unsigned integer of nByteToRead bytes at the position current + nByteFromPrevious from a file.  <a href="#a07661231033b2ee19ed55b2ba44fdd05">More...</a><br /></td></tr>
-<tr class="separator:a07661231033b2ee19ed55b2ba44fdd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65f515720fe39d7f1350db7603ea47c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a65f515720fe39d7f1350db7603ea47c0">readFloat</a> (int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
-<tr class="memdesc:a65f515720fe39d7f1350db7603ea47c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a float at the position current + nByteFromPrevious from a file.  <a href="#a65f515720fe39d7f1350db7603ea47c0">More...</a><br /></td></tr>
-<tr class="separator:a65f515720fe39d7f1350db7603ea47c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8d973a0fafe4449ce205a06d0fc8038"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#aa8d973a0fafe4449ce205a06d0fc8038">readString</a> (unsigned int nByteToRead, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
-<tr class="memdesc:aa8d973a0fafe4449ce205a06d0fc8038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a string (array of char of nByteToRead bytes) at the position current + nByteFromPrevious from a file.  <a href="#aa8d973a0fafe4449ce205a06d0fc8038">More...</a><br /></td></tr>
-<tr class="separator:aa8d973a0fafe4449ce205a06d0fc8038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae308f6a63f36bf12edff832520fa1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a5ae308f6a63f36bf12edff832520fa1c">readParam</a> (unsigned int dataLenghtInBytes, const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; int &gt; &amp;param_data, size_t currentIdx=0)</td></tr>
-<tr class="memdesc:a5ae308f6a63f36bf12edff832520fa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a matrix of integer parameters of dimensions dimension with each integer of length dataLengthInByte.  <a href="#a5ae308f6a63f36bf12edff832520fa1c">More...</a><br /></td></tr>
-<tr class="separator:a5ae308f6a63f36bf12edff832520fa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af03306dd84fd315edc413ffd93c9bb02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#af03306dd84fd315edc413ffd93c9bb02">readParam</a> (const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; float &gt; &amp;param_data, size_t currentIdx=0)</td></tr>
-<tr class="memdesc:af03306dd84fd315edc413ffd93c9bb02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a matrix of float parameters of dimensions dimension.  <a href="#af03306dd84fd315edc413ffd93c9bb02">More...</a><br /></td></tr>
-<tr class="separator:af03306dd84fd315edc413ffd93c9bb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09282f6f61a6ef05f16ed4e088ef160d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a09282f6f61a6ef05f16ed4e088ef160d">readParam</a> (const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; std::string &gt; &amp;param_data)</td></tr>
-<tr class="memdesc:a09282f6f61a6ef05f16ed4e088ef160d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a matrix of string of dimensions dimension with the first dimension being the length of the strings.  <a href="#a09282f6f61a6ef05f16ed4e088ef160d">More...</a><br /></td></tr>
-<tr class="separator:a09282f6f61a6ef05f16ed4e088ef160d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c1e83a720483558213b5df8745e061"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a44c1e83a720483558213b5df8745e061">readInt</a> (std::fstream &amp;file, unsigned int nByteToRead, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
+<tr class="memdesc:a44c1e83a720483558213b5df8745e061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read an integer of nByteToRead bytes at the position current + nByteFromPrevious from a file.  <a href="#a44c1e83a720483558213b5df8745e061">More...</a><br /></td></tr>
+<tr class="separator:a44c1e83a720483558213b5df8745e061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aaf11338506cb16c70445cc0ad8f59e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a5aaf11338506cb16c70445cc0ad8f59e">readUint</a> (std::fstream &amp;file, unsigned int nByteToRead, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
+<tr class="memdesc:a5aaf11338506cb16c70445cc0ad8f59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a unsigned integer of nByteToRead bytes at the position current + nByteFromPrevious from a file.  <a href="#a5aaf11338506cb16c70445cc0ad8f59e">More...</a><br /></td></tr>
+<tr class="separator:a5aaf11338506cb16c70445cc0ad8f59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142065bfe8f7204f5014d8f1207ccd25"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a142065bfe8f7204f5014d8f1207ccd25">readFloat</a> (std::fstream &amp;file, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
+<tr class="memdesc:a142065bfe8f7204f5014d8f1207ccd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a float at the position current + nByteFromPrevious from a file.  <a href="#a142065bfe8f7204f5014d8f1207ccd25">More...</a><br /></td></tr>
+<tr class="separator:a142065bfe8f7204f5014d8f1207ccd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee74f835690510d5f6ef556d0367990"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a6ee74f835690510d5f6ef556d0367990">readString</a> (std::fstream &amp;file, unsigned int nByteToRead, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
+<tr class="memdesc:a6ee74f835690510d5f6ef556d0367990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a string (array of char of nByteToRead bytes) at the position current + nByteFromPrevious from a file.  <a href="#a6ee74f835690510d5f6ef556d0367990">More...</a><br /></td></tr>
+<tr class="separator:a6ee74f835690510d5f6ef556d0367990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bedd3284f80f1a70ea266f56495481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#ad8bedd3284f80f1a70ea266f56495481">readParam</a> (std::fstream &amp;file, unsigned int dataLenghtInBytes, const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; int &gt; &amp;param_data, size_t currentIdx=0)</td></tr>
+<tr class="memdesc:ad8bedd3284f80f1a70ea266f56495481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a matrix of integer parameters of dimensions dimension with each integer of length dataLengthInByte.  <a href="#ad8bedd3284f80f1a70ea266f56495481">More...</a><br /></td></tr>
+<tr class="separator:ad8bedd3284f80f1a70ea266f56495481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21528990653cabba9aeffe93336253a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a21528990653cabba9aeffe93336253a3">readParam</a> (std::fstream &amp;file, const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; float &gt; &amp;param_data, size_t currentIdx=0)</td></tr>
+<tr class="memdesc:a21528990653cabba9aeffe93336253a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a matrix of float parameters of dimensions dimension.  <a href="#a21528990653cabba9aeffe93336253a3">More...</a><br /></td></tr>
+<tr class="separator:a21528990653cabba9aeffe93336253a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c3d9837aef8eb57533dfdfdb903b744"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a4c3d9837aef8eb57533dfdfdb903b744">readParam</a> (std::fstream &amp;file, const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; std::string &gt; &amp;param_data)</td></tr>
+<tr class="memdesc:a4c3d9837aef8eb57533dfdfdb903b744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a matrix of string of dimensions dimension with the first dimension being the length of the strings.  <a href="#a4c3d9837aef8eb57533dfdfdb903b744">More...</a><br /></td></tr>
+<tr class="separator:a4c3d9837aef8eb57533dfdfdb903b744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d5c9cb97cdcfd649d9e3a9dfb355826"><td class="memItemLeft" align="right" valign="top"><a id="a3d5c9cb97cdcfd649d9e3a9dfb355826"></a>
 const <a class="el" href="classezc3d_1_1Header.html">ezc3d::Header</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a3d5c9cb97cdcfd649d9e3a9dfb355826">header</a> () const</td></tr>
 <tr class="memdesc:a3d5c9cb97cdcfd649d9e3a9dfb355826"><td class="mdescLeft">&#160;</td><td class="mdescRight">The header of the C3D. <br /></td></tr>
@@ -141,6 +133,18 @@ const <a class="el" href="classezc3d_1_1ParametersNS_1_1Parameters.html">ezc3d::
 const <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d::DataNS::Data</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a2cd2d0a9c3bc9dd0e5e428852db2f12a">data</a> () const</td></tr>
 <tr class="memdesc:a2cd2d0a9c3bc9dd0e5e428852db2f12a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The points and analogous data of the C3D. <br /></td></tr>
 <tr class="separator:a2cd2d0a9c3bc9dd0e5e428852db2f12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2171b04f4643353178f939bc5642f168"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a2171b04f4643353178f939bc5642f168">pointNames</a> () const</td></tr>
+<tr class="memdesc:a2171b04f4643353178f939bc5642f168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the names of the points.  <a href="#a2171b04f4643353178f939bc5642f168">More...</a><br /></td></tr>
+<tr class="separator:a2171b04f4643353178f939bc5642f168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612b3fa552d193564bc5716ec56fbc0f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a612b3fa552d193564bc5716ec56fbc0f">pointIdx</a> (const std::string &amp;pointName) const</td></tr>
+<tr class="memdesc:a612b3fa552d193564bc5716ec56fbc0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of a point in the points holder.  <a href="#a612b3fa552d193564bc5716ec56fbc0f">More...</a><br /></td></tr>
+<tr class="separator:a612b3fa552d193564bc5716ec56fbc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739cde2c3aa95532a2154f8a5da7f0c4"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a739cde2c3aa95532a2154f8a5da7f0c4">channelNames</a> () const</td></tr>
+<tr class="memdesc:a739cde2c3aa95532a2154f8a5da7f0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the names of the analog channels.  <a href="#a739cde2c3aa95532a2154f8a5da7f0c4">More...</a><br /></td></tr>
+<tr class="separator:a739cde2c3aa95532a2154f8a5da7f0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51e1ef2d95eb20e148a884e72b3a1fb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#af51e1ef2d95eb20e148a884e72b3a1fb">channelIdx</a> (const std::string &amp;channelName) const</td></tr>
+<tr class="memdesc:af51e1ef2d95eb20e148a884e72b3a1fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of a analog channel in the subframe.  <a href="#af51e1ef2d95eb20e148a884e72b3a1fb">More...</a><br /></td></tr>
+<tr class="separator:af51e1ef2d95eb20e148a884e72b3a1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cbcdb34e8e7aebf26342bbd1ce657f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a0cbcdb34e8e7aebf26342bbd1ce657f3">parameter</a> (const std::string &amp;groupName, const <a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html">ezc3d::ParametersNS::GroupNS::Parameter</a> &amp;parameter)</td></tr>
 <tr class="memdesc:a0cbcdb34e8e7aebf26342bbd1ce657f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add/replace a parameter to a group named groupName.  <a href="#a0cbcdb34e8e7aebf26342bbd1ce657f3">More...</a><br /></td></tr>
 <tr class="separator:a0cbcdb34e8e7aebf26342bbd1ce657f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,21 +160,27 @@ const <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d::DataNS::Data
 <tr class="memitem:aab753f7a30c51e9129239c5df882c39d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#aab753f7a30c51e9129239c5df882c39d">point</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:aab753f7a30c51e9129239c5df882c39d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a point to the data set of name name.  <a href="#aab753f7a30c51e9129239c5df882c39d">More...</a><br /></td></tr>
 <tr class="separator:aab753f7a30c51e9129239c5df882c39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3313ff7ac1a2eab65f2ad391fa0237b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a3313ff7ac1a2eab65f2ad391fa0237b0">point</a> (const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;frames)</td></tr>
-<tr class="memdesc:a3313ff7ac1a2eab65f2ad391fa0237b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new point to the data set.  <a href="#a3313ff7ac1a2eab65f2ad391fa0237b0">More...</a><br /></td></tr>
-<tr class="separator:a3313ff7ac1a2eab65f2ad391fa0237b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cfbba535eac118b13b75a044853899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a15cfbba535eac118b13b75a044853899">point</a> (const std::string &amp;pointName, const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;frames)</td></tr>
+<tr class="memdesc:a15cfbba535eac118b13b75a044853899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new point to the data set.  <a href="#a15cfbba535eac118b13b75a044853899">More...</a><br /></td></tr>
+<tr class="separator:a15cfbba535eac118b13b75a044853899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf4eb69c40496378e984cbd6d0e2787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a7cf4eb69c40496378e984cbd6d0e2787">point</a> (const std::vector&lt; std::string &gt; &amp;<a class="el" href="classezc3d_1_1c3d.html#a2171b04f4643353178f939bc5642f168">pointNames</a>, const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;frames)</td></tr>
+<tr class="memdesc:a7cf4eb69c40496378e984cbd6d0e2787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new point to the data set.  <a href="#a7cf4eb69c40496378e984cbd6d0e2787">More...</a><br /></td></tr>
+<tr class="separator:a7cf4eb69c40496378e984cbd6d0e2787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9a281d6a1184425e88f854379f8c2f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#ab9a281d6a1184425e88f854379f8c2f7">analog</a> (const std::string &amp;name)</td></tr>
 <tr class="memdesc:ab9a281d6a1184425e88f854379f8c2f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a channel of analog data to the data set of name name.  <a href="#ab9a281d6a1184425e88f854379f8c2f7">More...</a><br /></td></tr>
 <tr class="separator:ab9a281d6a1184425e88f854379f8c2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab81777823a686dfcdb2d48d324ab873e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#ab81777823a686dfcdb2d48d324ab873e">analog</a> (const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;frames)</td></tr>
-<tr class="memdesc:ab81777823a686dfcdb2d48d324ab873e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new channel to the data set.  <a href="#ab81777823a686dfcdb2d48d324ab873e">More...</a><br /></td></tr>
-<tr class="separator:ab81777823a686dfcdb2d48d324ab873e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2f2cf96f64023dd2450398d0824913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#aec2f2cf96f64023dd2450398d0824913">analog</a> (std::string channelName, const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;frames)</td></tr>
+<tr class="memdesc:aec2f2cf96f64023dd2450398d0824913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new channel to the data set.  <a href="#aec2f2cf96f64023dd2450398d0824913">More...</a><br /></td></tr>
+<tr class="separator:aec2f2cf96f64023dd2450398d0824913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923db963bc4770a08bb01a28b0ed5aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a923db963bc4770a08bb01a28b0ed5aef">analog</a> (const std::vector&lt; std::string &gt; &amp;<a class="el" href="classezc3d_1_1c3d.html#a739cde2c3aa95532a2154f8a5da7f0c4">channelNames</a>, const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;frames)</td></tr>
+<tr class="memdesc:a923db963bc4770a08bb01a28b0ed5aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new channel to the data set.  <a href="#a923db963bc4770a08bb01a28b0ed5aef">More...</a><br /></td></tr>
+<tr class="separator:a923db963bc4770a08bb01a28b0ed5aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac9bedefae9c5c48d0bc5532a23bac9de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#ac9bedefae9c5c48d0bc5532a23bac9de">readFile</a> (unsigned int nByteToRead, char *c, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
-<tr class="memdesc:ac9bedefae9c5c48d0bc5532a23bac9de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual function that reads the file, it returns the value into a generic char pointer that must be pre-allocate.  <a href="#ac9bedefae9c5c48d0bc5532a23bac9de">More...</a><br /></td></tr>
-<tr class="separator:ac9bedefae9c5c48d0bc5532a23bac9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d0df2779ed08a1dd5089d6ec4ac581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a91d0df2779ed08a1dd5089d6ec4ac581">readFile</a> (std::fstream &amp;file, unsigned int nByteToRead, char *c, int nByteFromPrevious=0, const std::ios_base::seekdir &amp;pos=std::ios::cur)</td></tr>
+<tr class="memdesc:a91d0df2779ed08a1dd5089d6ec4ac581"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual function that reads the file, it returns the value into a generic char pointer that must be pre-allocate.  <a href="#a91d0df2779ed08a1dd5089d6ec4ac581">More...</a><br /></td></tr>
+<tr class="separator:a91d0df2779ed08a1dd5089d6ec4ac581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a347f1bf4b11f2599cb459e85532bf32c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a347f1bf4b11f2599cb459e85532bf32c">hex2uint</a> (const char *val, unsigned int len)</td></tr>
 <tr class="memdesc:a347f1bf4b11f2599cb459e85532bf32c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an hexadecimal value to an unsigned integer.  <a href="#a347f1bf4b11f2599cb459e85532bf32c">More...</a><br /></td></tr>
 <tr class="separator:a347f1bf4b11f2599cb459e85532bf32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +190,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a9e585991e1fb9d3d0be50db1e4bc2181"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#a9e585991e1fb9d3d0be50db1e4bc2181">_dispatchMatrix</a> (const std::vector&lt; size_t &gt; &amp;dimension, const std::vector&lt; std::string &gt; &amp;param_data_in, std::vector&lt; std::string &gt; &amp;param_data_out, size_t idxInParam=0, size_t currentIdx=1)</td></tr>
 <tr class="memdesc:a9e585991e1fb9d3d0be50db1e4bc2181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal function to dispatch a string array to a matrix of strings.  <a href="#a9e585991e1fb9d3d0be50db1e4bc2181">More...</a><br /></td></tr>
 <tr class="separator:a9e585991e1fb9d3d0be50db1e4bc2181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7610e10564520632917c540c6ec7808"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#aa7610e10564520632917c540c6ec7808">_readMatrix</a> (const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; std::string &gt; &amp;param_data, size_t currentIdx=0)</td></tr>
-<tr class="memdesc:aa7610e10564520632917c540c6ec7808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal function to read a string array to a matrix of strings.  <a href="#aa7610e10564520632917c540c6ec7808">More...</a><br /></td></tr>
-<tr class="separator:aa7610e10564520632917c540c6ec7808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8079a2fcb3398d3af957454e97c72cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#af8079a2fcb3398d3af957454e97c72cf">_readMatrix</a> (std::fstream &amp;file, const std::vector&lt; size_t &gt; &amp;dimension, std::vector&lt; std::string &gt; &amp;param_data, size_t currentIdx=0)</td></tr>
+<tr class="memdesc:af8079a2fcb3398d3af957454e97c72cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal function to read a string array to a matrix of strings.  <a href="#af8079a2fcb3398d3af957454e97c72cf">More...</a><br /></td></tr>
+<tr class="separator:af8079a2fcb3398d3af957454e97c72cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c46a95b5cd632bbc63f42aa42d969c"><td class="memItemLeft" align="right" valign="top"><a id="ab2c46a95b5cd632bbc63f42aa42d969c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1c3d.html#ab2c46a95b5cd632bbc63f42aa42d969c">updateHeader</a> ()</td></tr>
 <tr class="memdesc:ab2c46a95b5cd632bbc63f42aa42d969c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the header according to the parameters and the data. <br /></td></tr>
@@ -317,12 +327,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00207">207</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00219">219</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aa7610e10564520632917c540c6ec7808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7610e10564520632917c540c6ec7808">&#9670;&nbsp;</a></span>_readMatrix()</h2>
+<a id="af8079a2fcb3398d3af957454e97c72cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8079a2fcb3398d3af957454e97c72cf">&#9670;&nbsp;</a></span>_readMatrix()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,6 +343,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::_readMatrix </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>dimension</em>, </td>
         </tr>
@@ -364,6 +380,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Internal function to read a string array to a matrix of strings. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">dimension</td><td>The dimensions of the matrix up to 7-dimensions </td></tr>
     <tr><td class="paramname">param_data</td><td>The output matrix of strings </td></tr>
     <tr><td class="paramname">currentIdx</td><td>Internal counter to keep track where the function is in its recursive calls </td></tr>
@@ -371,12 +388,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00227">227</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00239">239</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
 <a id="ab9a281d6a1184425e88f854379f8c2f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9a281d6a1184425e88f854379f8c2f7">&#9670;&nbsp;</a></span>analog() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9a281d6a1184425e88f854379f8c2f7">&#9670;&nbsp;</a></span>analog() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -401,12 +418,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>If, for some reason, you want to add a new channel to a pre-existing data set, you must declare this channel before, otherwise it rejects it because parameter ANALOG:LABELS doesn't fit. This function harmonize the parameter structure with the data structure in advance in order to add the channel.</p>
 <p>Throw the same errors as updateParameter as it calls it after the channel is created </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00358">358</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00404">404</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ab81777823a686dfcdb2d48d324ab873e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81777823a686dfcdb2d48d324ab873e">&#9670;&nbsp;</a></span>analog() <span class="overload">[2/2]</span></h2>
+<a id="aec2f2cf96f64023dd2450398d0824913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec2f2cf96f64023dd2450398d0824913">&#9670;&nbsp;</a></span>analog() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,9 +431,19 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::analog </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>frames</em></td><td>)</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>channelName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -424,6 +451,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Add a new channel to the data set. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">channelName</td><td>Name of the channel to add </td></tr>
     <tr><td class="paramname">frames</td><td>The array of frames to add</td></tr>
   </table>
   </dd>
@@ -432,7 +460,102 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Throw a std::invalid_argument if the size of the std::vector of frames/subframes is not equal to the number of frames/subframes already present in the data set. Obviously it throws the same error if no channel were sent or if the channel was already in the data set.</p>
 <p>Moreover it throws the same errors as updateParameter as it calls it after the channel is added </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00378">378</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00423">423</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a923db963bc4770a08bb01a28b0ed5aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a923db963bc4770a08bb01a28b0ed5aef">&#9670;&nbsp;</a></span>analog() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ezc3d::c3d::analog </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>channelNames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new channel to the data set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channelNames</td><td>Name of the channels to add </td></tr>
+    <tr><td class="paramname">frames</td><td>The array of frames to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Append a new channel to the data set.</p>
+<p>Throw a std::invalid_argument if the size of the std::vector of frames/subframes is not equal to the number of frames/subframes already present in the data set. Obviously it throws the same error if no channel were sent or if the channel was already in the data set.</p>
+<p>Moreover it throws the same errors as updateParameter as it calls it after the channel is added </p>
+
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00430">430</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af51e1ef2d95eb20e148a884e72b3a1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51e1ef2d95eb20e148a884e72b3a1fb">&#9670;&nbsp;</a></span>channelIdx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ezc3d::c3d::channelIdx </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>channelName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the index of a analog channel in the subframe. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channelName</td><td>Name of the analog channel </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index of the analog channel</dd></dl>
+<p>Search for the index of a analog channel into subframe by the name of this channel.</p>
+<p>Throw a std::invalid_argument if channelName is not found </p>
+
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00283">283</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a739cde2c3aa95532a2154f8a5da7f0c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a739cde2c3aa95532a2154f8a5da7f0c4">&#9670;&nbsp;</a></span>channelNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; std::string &gt; &amp; ezc3d::c3d::channelNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a reference to the names of the analog channels. </p>
+<dl class="section return"><dt>Returns</dt><dd>The reference to the names of the analog channels </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00278">278</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -476,7 +599,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Throw a std::invalid_argument if the point names in the frame don't correspond to the name of the points as defined in POINT:LABELS group</p>
 <p>Throw a std::runtime_error if at least a point was added to the frame but POINT:RATE is equal to 0 and/or if at least an analog data was added to the frame and ANALOG:RATE is equal to 0 </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00282">282</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00323">323</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -524,7 +647,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The integer value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00105">105</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00117">117</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -572,7 +695,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The unsigned integer value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00098">98</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00110">110</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -601,7 +724,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <p>Throw a std::invalid_argument exception if the group name does not exist </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00272">272</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00313">313</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -642,12 +765,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Add a parameter to a group. If the the group does not exist in the C3D, it is created. If the parameter already exists in the group, it is replaced.</p>
 <p>Throw a std::invalid_argument if the name of the parameter is not specified </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00252">252</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00293">293</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
 <a id="aab753f7a30c51e9129239c5df882c39d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab753f7a30c51e9129239c5df882c39d">&#9670;&nbsp;</a></span>point() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aab753f7a30c51e9129239c5df882c39d">&#9670;&nbsp;</a></span>point() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,12 +795,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>If, for some reason, you want to add a new point to a pre-existing data set, you must declare this point before, otherwise it rejects it because parameter POINT:LABELS doesn't fit. This function harmonize the parameter structure with the data structure in advance in order to add the point.</p>
 <p>Throw the same errors as updateParameter as it calls it after the point is created </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00320">320</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00361">361</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a3313ff7ac1a2eab65f2ad391fa0237b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3313ff7ac1a2eab65f2ad391fa0237b0">&#9670;&nbsp;</a></span>point() <span class="overload">[2/2]</span></h2>
+<a id="a15cfbba535eac118b13b75a044853899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15cfbba535eac118b13b75a044853899">&#9670;&nbsp;</a></span>point() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -685,9 +808,19 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::point </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>frames</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pointName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -695,6 +828,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Add a new point to the data set. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">pointName</td><td>The name of the new point </td></tr>
     <tr><td class="paramname">frames</td><td>The array of frames to add</td></tr>
   </table>
   </dd>
@@ -703,12 +837,107 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Throw a std::invalid_argument if the size of the std::vector of frames is not equal to the number of frames already present in the data set. Obviously it throws the same error if no point were sent or if the point was already in the data set.</p>
 <p>Moreover it throws the same errors as updateParameter as it calls it after the point is added </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00337">337</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00377">377</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ac9bedefae9c5c48d0bc5532a23bac9de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9bedefae9c5c48d0bc5532a23bac9de">&#9670;&nbsp;</a></span>readFile()</h2>
+<a id="a7cf4eb69c40496378e984cbd6d0e2787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf4eb69c40496378e984cbd6d0e2787">&#9670;&nbsp;</a></span>point() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ezc3d::c3d::point </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pointNames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Frame.html">ezc3d::DataNS::Frame</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new point to the data set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pointNames</td><td>The name vector of the new points </td></tr>
+    <tr><td class="paramname">frames</td><td>The array of frames to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Append a new point to the data set.</p>
+<p>Throw a std::invalid_argument if the size of the std::vector of frames is not equal to the number of frames already present in the data set. Obviously it throws the same error if no point were sent or if the point was already in the data set.</p>
+<p>Moreover it throws the same errors as updateParameter as it calls it after the point is added </p>
+
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00383">383</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a612b3fa552d193564bc5716ec56fbc0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612b3fa552d193564bc5716ec56fbc0f">&#9670;&nbsp;</a></span>pointIdx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ezc3d::c3d::pointIdx </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pointName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the index of a point in the points holder. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pointName</td><td>Name of the point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index of the point</dd></dl>
+<p>Search for the index of a point into points data by the name of this point.</p>
+<p>Throw a std::invalid_argument if pointName is not found </p>
+
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00269">269</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2171b04f4643353178f939bc5642f168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2171b04f4643353178f939bc5642f168">&#9670;&nbsp;</a></span>pointNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; std::string &gt; &amp; ezc3d::c3d::pointNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a reference to the names of the points. </p>
+<dl class="section return"><dt>Returns</dt><dd>The reference to the names of the points </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00264">264</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a91d0df2779ed08a1dd5089d6ec4ac581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91d0df2779ed08a1dd5089d6ec4ac581">&#9670;&nbsp;</a></span>readFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -719,6 +948,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::readFile </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>nByteToRead</em>, </td>
         </tr>
@@ -756,6 +991,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Actual function that reads the file, it returns the value into a generic char pointer that must be pre-allocate. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">nByteToRead</td><td>The number of bytes to read </td></tr>
     <tr><td class="paramname">c</td><td>The output char </td></tr>
     <tr><td class="paramname">nByteFromPrevious</td><td>The number of byte to skip from current position </td></tr>
@@ -764,12 +1000,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00089">89</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00101">101</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a65f515720fe39d7f1350db7603ea47c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f515720fe39d7f1350db7603ea47c0">&#9670;&nbsp;</a></span>readFloat()</h2>
+<a id="a142065bfe8f7204f5014d8f1207ccd25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142065bfe8f7204f5014d8f1207ccd25">&#9670;&nbsp;</a></span>readFloat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -777,6 +1013,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">float ezc3d::c3d::readFloat </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>nByteFromPrevious</em> = <code>0</code>, </td>
         </tr>
@@ -797,6 +1039,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read a float at the position current + nByteFromPrevious from a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">nByteFromPrevious</td><td>The number of bytes to skip from the current cursor position </td></tr>
     <tr><td class="paramname">pos</td><td>Where to reposition the cursor </td></tr>
   </table>
@@ -804,12 +1047,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The float value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00148">148</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00160">160</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="add76f668ac7e2bb470017cd808ec98e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add76f668ac7e2bb470017cd808ec98e6">&#9670;&nbsp;</a></span>readInt()</h2>
+<a id="a44c1e83a720483558213b5df8745e061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c1e83a720483558213b5df8745e061">&#9670;&nbsp;</a></span>readInt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -817,6 +1060,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">int ezc3d::c3d::readInt </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>nByteToRead</em>, </td>
         </tr>
@@ -843,6 +1092,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read an integer of nByteToRead bytes at the position current + nByteFromPrevious from a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">nByteToRead</td><td>The number of byte to read to be converted into integer </td></tr>
     <tr><td class="paramname">nByteFromPrevious</td><td>The number of bytes to skip from the current cursor position </td></tr>
     <tr><td class="paramname">pos</td><td>Where to reposition the cursor </td></tr>
@@ -851,12 +1101,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The integer value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00124">124</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00136">136</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a5ae308f6a63f36bf12edff832520fa1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ae308f6a63f36bf12edff832520fa1c">&#9670;&nbsp;</a></span>readParam() <span class="overload">[1/3]</span></h2>
+<a id="ad8bedd3284f80f1a70ea266f56495481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8bedd3284f80f1a70ea266f56495481">&#9670;&nbsp;</a></span>readParam() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -864,6 +1114,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::readParam </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>dataLenghtInBytes</em>, </td>
         </tr>
@@ -896,6 +1152,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read a matrix of integer parameters of dimensions dimension with each integer of length dataLengthInByte. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">dataLenghtInBytes</td><td>The number of bytes to read to be converted to int </td></tr>
     <tr><td class="paramname">dimension</td><td>The dimensions of the matrix up to 7-dimensions </td></tr>
     <tr><td class="paramname">param_data</td><td>The actual output of the function </td></tr>
@@ -904,12 +1161,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00166">166</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00178">178</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="af03306dd84fd315edc413ffd93c9bb02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af03306dd84fd315edc413ffd93c9bb02">&#9670;&nbsp;</a></span>readParam() <span class="overload">[2/3]</span></h2>
+<a id="a21528990653cabba9aeffe93336253a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21528990653cabba9aeffe93336253a3">&#9670;&nbsp;</a></span>readParam() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -917,6 +1174,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::readParam </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>dimension</em>, </td>
         </tr>
@@ -943,6 +1206,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read a matrix of float parameters of dimensions dimension. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">dimension</td><td>The dimensions of the matrix up to 7-dimensions </td></tr>
     <tr><td class="paramname">param_data</td><td>The actual output of the function </td></tr>
     <tr><td class="paramname">currentIdx</td><td>Internal tracker of where the function is in the flow of the recursive calls </td></tr>
@@ -950,12 +1214,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00176">176</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00188">188</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a09282f6f61a6ef05f16ed4e088ef160d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09282f6f61a6ef05f16ed4e088ef160d">&#9670;&nbsp;</a></span>readParam() <span class="overload">[3/3]</span></h2>
+<a id="a4c3d9837aef8eb57533dfdfdb903b744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c3d9837aef8eb57533dfdfdb903b744">&#9670;&nbsp;</a></span>readParam() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -963,6 +1227,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">void ezc3d::c3d::readParam </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const std::vector&lt; size_t &gt; &amp;&#160;</td>
           <td class="paramname"><em>dimension</em>, </td>
         </tr>
@@ -983,18 +1253,19 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read a matrix of string of dimensions dimension with the first dimension being the length of the strings. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">dimension</td><td>The dimensions of the matrix up to 7-dimensions. The first dimension is the length of the strings </td></tr>
     <tr><td class="paramname">param_data</td><td>The actual output of the function </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00186">186</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00198">198</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aa8d973a0fafe4449ce205a06d0fc8038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8d973a0fafe4449ce205a06d0fc8038">&#9670;&nbsp;</a></span>readString()</h2>
+<a id="a6ee74f835690510d5f6ef556d0367990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee74f835690510d5f6ef556d0367990">&#9670;&nbsp;</a></span>readString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1002,6 +1273,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">std::string ezc3d::c3d::readString </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>nByteToRead</em>, </td>
         </tr>
@@ -1028,6 +1305,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read a string (array of char of nByteToRead bytes) at the position current + nByteFromPrevious from a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">nByteToRead</td><td>The number of byte to read to be converted into float </td></tr>
     <tr><td class="paramname">nByteFromPrevious</td><td>The number of bytes to skip from the current cursor position </td></tr>
     <tr><td class="paramname">pos</td><td>Where to reposition the cursor </td></tr>
@@ -1036,12 +1314,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The float value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00156">156</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00168">168</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a07661231033b2ee19ed55b2ba44fdd05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07661231033b2ee19ed55b2ba44fdd05">&#9670;&nbsp;</a></span>readUint()</h2>
+<a id="a5aaf11338506cb16c70445cc0ad8f59e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aaf11338506cb16c70445cc0ad8f59e">&#9670;&nbsp;</a></span>readUint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1049,6 +1327,12 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
         <tr>
           <td class="memname">size_t ezc3d::c3d::readUint </td>
           <td>(</td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>nByteToRead</em>, </td>
         </tr>
@@ -1075,6 +1359,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 <p>Read a unsigned integer of nByteToRead bytes at the position current + nByteFromPrevious from a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
     <tr><td class="paramname">nByteToRead</td><td>The number of byte to read to be converted into unsigned integer </td></tr>
     <tr><td class="paramname">nByteFromPrevious</td><td>The number of bytes to skip from the current cursor position </td></tr>
     <tr><td class="paramname">pos</td><td>Where to reposition the cursor </td></tr>
@@ -1083,7 +1368,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The unsigned integer value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00136">136</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00148">148</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1397,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <p>Throw a std::invalid_argument exception if the group name does not exist </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00277">277</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00318">318</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -1160,7 +1445,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
 </dl>
 <p>Throw a std::runtime_error if newPoints or newAnalogs was added while the data set is not empty. If you want to add a new point after having actual data in the data set, you must use the frame method. </p>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00446">446</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00490">490</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
@@ -1188,7 +1473,7 @@ std::shared_ptr&lt; <a class="el" href="classezc3d_1_1DataNS_1_1Data.html">ezc3d
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00073">73</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ezc3d_8cpp_source.html#l00077">77</a> of file <a class="el" href="ezc3d_8cpp_source.html">ezc3d.cpp</a>.</p>
 
 </div>
 </div>
