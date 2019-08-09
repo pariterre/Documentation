@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classezc3d_1_1Header-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -90,11 +91,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3a97d78314452ae82c00039c99d98880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29cf728ce88aabd2ae4ea2ea93489e05"><td class="memItemLeft" align="right" valign="top"><a id="a29cf728ce88aabd2ae4ea2ea93489e05"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a29cf728ce88aabd2ae4ea2ea93489e05">print</a> () const</td></tr>
-<tr class="memdesc:a29cf728ce88aabd2ae4ea2ea93489e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the actual header. <br /></td></tr>
+<tr class="memdesc:a29cf728ce88aabd2ae4ea2ea93489e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the header. <br /></td></tr>
 <tr class="separator:a29cf728ce88aabd2ae4ea2ea93489e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24602f5e5e8ccd1e57b67dd0cb00a0da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a24602f5e5e8ccd1e57b67dd0cb00a0da">write</a> (std::fstream &amp;f) const</td></tr>
-<tr class="memdesc:a24602f5e5e8ccd1e57b67dd0cb00a0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the header to an opened file.  <a href="#a24602f5e5e8ccd1e57b67dd0cb00a0da">More...</a><br /></td></tr>
-<tr class="separator:a24602f5e5e8ccd1e57b67dd0cb00a0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3257bf364beb2fb986eb81d34c15db2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#af3257bf364beb2fb986eb81d34c15db2">write</a> (std::fstream &amp;f, std::streampos &amp;dataStartPosition) const</td></tr>
+<tr class="memdesc:af3257bf364beb2fb986eb81d34c15db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the header to an opened file.  <a href="#af3257bf364beb2fb986eb81d34c15db2">More...</a><br /></td></tr>
+<tr class="separator:af3257bf364beb2fb986eb81d34c15db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d91bccc2a98b3bebb2d7d46e19624f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a4d91bccc2a98b3bebb2d7d46e19624f2">read</a> (<a class="el" href="classezc3d_1_1c3d.html">c3d</a> &amp;<a class="el" href="classezc3d_1_1c3d.html">c3d</a>, std::fstream &amp;file)</td></tr>
 <tr class="memdesc:a4d91bccc2a98b3bebb2d7d46e19624f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read and store a header from an opened C3D file.  <a href="#a4d91bccc2a98b3bebb2d7d46e19624f2">More...</a><br /></td></tr>
 <tr class="separator:a4d91bccc2a98b3bebb2d7d46e19624f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,23 +127,23 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:a2628c79021781ec45408a80d5bffa689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of frames.  <a href="#a2628c79021781ec45408a80d5bffa689">More...</a><br /></td></tr>
 <tr class="separator:a2628c79021781ec45408a80d5bffa689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1741af3764d1d02f67da2edcc0c9eb0a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a1741af3764d1d02f67da2edcc0c9eb0a">firstFrame</a> () const</td></tr>
-<tr class="memdesc:a1741af3764d1d02f67da2edcc0c9eb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first actual frame.  <a href="#a1741af3764d1d02f67da2edcc0c9eb0a">More...</a><br /></td></tr>
+<tr class="memdesc:a1741af3764d1d02f67da2edcc0c9eb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first frame.  <a href="#a1741af3764d1d02f67da2edcc0c9eb0a">More...</a><br /></td></tr>
 <tr class="separator:a1741af3764d1d02f67da2edcc0c9eb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e71781145f9877fa35462918e4b667e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a9e71781145f9877fa35462918e4b667e">firstFrame</a> (size_t frame)</td></tr>
-<tr class="memdesc:a9e71781145f9877fa35462918e4b667e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the first actual frame.  <a href="#a9e71781145f9877fa35462918e4b667e">More...</a><br /></td></tr>
+<tr class="memdesc:a9e71781145f9877fa35462918e4b667e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the first frame.  <a href="#a9e71781145f9877fa35462918e4b667e">More...</a><br /></td></tr>
 <tr class="separator:a9e71781145f9877fa35462918e4b667e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bb795caf0e91c6f6cf88c68e0cec1eb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a8bb795caf0e91c6f6cf88c68e0cec1eb">lastFrame</a> () const</td></tr>
-<tr class="memdesc:a8bb795caf0e91c6f6cf88c68e0cec1eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last actual frame.  <a href="#a8bb795caf0e91c6f6cf88c68e0cec1eb">More...</a><br /></td></tr>
+<tr class="memdesc:a8bb795caf0e91c6f6cf88c68e0cec1eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last frame.  <a href="#a8bb795caf0e91c6f6cf88c68e0cec1eb">More...</a><br /></td></tr>
 <tr class="separator:a8bb795caf0e91c6f6cf88c68e0cec1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76fc18fca94ce05229eb89015f2fb905"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a76fc18fca94ce05229eb89015f2fb905">lastFrame</a> (size_t frame)</td></tr>
-<tr class="memdesc:a76fc18fca94ce05229eb89015f2fb905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the last actual frame.  <a href="#a76fc18fca94ce05229eb89015f2fb905">More...</a><br /></td></tr>
+<tr class="memdesc:a76fc18fca94ce05229eb89015f2fb905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the last frame.  <a href="#a76fc18fca94ce05229eb89015f2fb905">More...</a><br /></td></tr>
 <tr class="separator:a76fc18fca94ce05229eb89015f2fb905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81de84a6a2ccff7ed6c5092b9bc21fc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#aa81de84a6a2ccff7ed6c5092b9bc21fc">nbMaxInterpGap</a> () const</td></tr>
 <tr class="memdesc:aa81de84a6a2ccff7ed6c5092b9bc21fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximal gap used for interpolation.  <a href="#aa81de84a6a2ccff7ed6c5092b9bc21fc">More...</a><br /></td></tr>
 <tr class="separator:aa81de84a6a2ccff7ed6c5092b9bc21fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9cf45546045f7a5fddaa17a9452ed08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#ac9cf45546045f7a5fddaa17a9452ed08">scaleFactor</a> () const</td></tr>
-<tr class="memdesc:ac9cf45546045f7a5fddaa17a9452ed08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the scaling factor to convert the 3D point.  <a href="#ac9cf45546045f7a5fddaa17a9452ed08">More...</a><br /></td></tr>
-<tr class="separator:ac9cf45546045f7a5fddaa17a9452ed08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05ee1a4202863609dbdaf607bc3e87c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#ab05ee1a4202863609dbdaf607bc3e87c">scaleFactor</a> () const</td></tr>
+<tr class="memdesc:ab05ee1a4202863609dbdaf607bc3e87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the scaling factor to convert the 3D point.  <a href="#ab05ee1a4202863609dbdaf607bc3e87c">More...</a><br /></td></tr>
+<tr class="separator:ab05ee1a4202863609dbdaf607bc3e87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdd94188cd820aa7467a66f2d8a6bddb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#abdd94188cd820aa7467a66f2d8a6bddb">dataStart</a> () const</td></tr>
 <tr class="memdesc:abdd94188cd820aa7467a66f2d8a6bddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of 256-byte blocks to get to the points and analogous data in the file.  <a href="#abdd94188cd820aa7467a66f2d8a6bddb">More...</a><br /></td></tr>
 <tr class="separator:abdd94188cd820aa7467a66f2d8a6bddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,6 +202,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:af066f0cf095dfa6c065583a3d4aeba9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a particular event label of index idx.  <a href="#af066f0cf095dfa6c065583a3d4aeba9e">More...</a><br /></td></tr>
 <tr class="separator:af066f0cf095dfa6c065583a3d4aeba9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:afacb1acc63d076d1399c33bfd28e5d6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceezc3d.html#a5f5dfbb526455657446d34188990c10b">PROCESSOR_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#afacb1acc63d076d1399c33bfd28e5d6d">readProcessorType</a> (<a class="el" href="classezc3d_1_1c3d.html">c3d</a> &amp;<a class="el" href="classezc3d_1_1c3d.html">c3d</a>, std::fstream &amp;file)</td></tr>
+<tr class="memdesc:afacb1acc63d076d1399c33bfd28e5d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the processor type in the parameter section, returns the file pointer where it was at the beggining of the function.  <a href="#afacb1acc63d076d1399c33bfd28e5d6d">More...</a><br /></td></tr>
+<tr class="separator:afacb1acc63d076d1399c33bfd28e5d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a06a472f783dec3348bb39882a94c335f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a06a472f783dec3348bb39882a94c335f">_nbOfZerosBeforeHeader</a></td></tr>
@@ -219,8 +226,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a3c791cdc3b27b09b6f345ae4e008ca37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5159fe5e7bb1bd6eaca7324421fa0d86"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a5159fe5e7bb1bd6eaca7324421fa0d86">_nbMaxInterpGap</a></td></tr>
 <tr class="separator:a5159fe5e7bb1bd6eaca7324421fa0d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3572627b388f048afc9abbaf412c270"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#aa3572627b388f048afc9abbaf412c270">_scaleFactor</a></td></tr>
-<tr class="separator:aa3572627b388f048afc9abbaf412c270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb3c5872b5b75b9b84040d8812ca2134"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#acb3c5872b5b75b9b84040d8812ca2134">_scaleFactor</a></td></tr>
+<tr class="separator:acb3c5872b5b75b9b84040d8812ca2134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a07083fcea35fa00a213caaefdee61a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a2a07083fcea35fa00a213caaefdee61a">_dataStart</a></td></tr>
 <tr class="separator:a2a07083fcea35fa00a213caaefdee61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f044ef3237fee8c580473bb8191447a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classezc3d_1_1Header.html#a3f044ef3237fee8c580473bb8191447a">_nbAnalogByFrame</a></td></tr>
@@ -290,7 +297,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00039">39</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00040">40</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -314,7 +321,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <p>The checksum of the header should be equals to 0x50 for a valid a <a class="el" href="classezc3d_1_1c3d.html" title="Main class for C3D holder. ">c3d</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00210">210</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00241">241</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -336,7 +343,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of 256-byte blocks to get to the points and analogous data in the file. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of 256-byte blocks to get to the points and analogous data in the file </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00281">281</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00312">312</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -358,7 +365,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the empty block 1. </p>
 <dl class="section return"><dt>Returns</dt><dd>The empty block 1 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00308">308</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00339">339</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -380,7 +387,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the empty block 2. </p>
 <dl class="section return"><dt>Returns</dt><dd>The empty block 2 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00313">313</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00344">344</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -402,7 +409,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the empty block 3. </p>
 <dl class="section return"><dt>Returns</dt><dd>The empty block 3 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00318">318</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00349">349</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -424,7 +431,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the empty block 4. </p>
 <dl class="section return"><dt>Returns</dt><dd>The empty block 4 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00323">323</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00354">354</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -447,7 +454,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The display flags</dd></dl>
 <p>If it is 0x00, then it is ON. If it is 0x01, then it is OFF. </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00365">365</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00396">396</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -478,7 +485,7 @@ Protected Attributes</h2></td></tr>
 <p>If it is 0x00, then it is ON. If it is 0x01, then it is OFF.</p>
 <p>Throw a std::out_of_range exception if idx is larger than the number of events </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00370">370</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00401">401</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -500,7 +507,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the event labels. </p>
 <dl class="section return"><dt>Returns</dt><dd>The event labels </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00381">381</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00412">412</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -530,7 +537,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The event label in seconds</dd></dl>
 <p>Throw a std::out_of_range exception if idx is larger than the number of events </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00386">386</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00417">417</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -552,7 +559,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the event times in seconds. </p>
 <dl class="section return"><dt>Returns</dt><dd>The event times in seconds </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00348">348</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00379">379</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -582,7 +589,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The event time in seconds</dd></dl>
 <p>Throw a std::out_of_range exception if idx is larger than the number of events </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00353">353</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00384">384</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -604,7 +611,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the first block of key labels (if present) </p>
 <dl class="section return"><dt>Returns</dt><dd>The first block of key labels (if present) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00333">333</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00364">364</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -623,10 +630,10 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the first actual frame. </p>
-<dl class="section return"><dt>Returns</dt><dd>The first actual frame </dd></dl>
+<p>Get the first frame. </p>
+<dl class="section return"><dt>Returns</dt><dd>The first frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00251">251</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00282">282</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -646,7 +653,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the first actual frame. </p>
+<p>Set the first frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">frame</td><td></td></tr>
@@ -654,7 +661,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00256">256</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00287">287</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -676,7 +683,7 @@ Protected Attributes</h2></td></tr>
 <p>fourCharPresent </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00338">338</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00369">369</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -698,7 +705,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the points frame rate in Hz. </p>
 <dl class="section return"><dt>Returns</dt><dd>The points frame rate in Hz </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00298">298</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00329">329</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -726,7 +733,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00303">303</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00334">334</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -749,7 +756,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The present label flag</dd></dl>
 <p>The present label flag. If it is equal to 12345, then label and range are present. </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00328">328</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00359">359</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -768,10 +775,10 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the last actual frame. </p>
-<dl class="section return"><dt>Returns</dt><dd>The last actual frame </dd></dl>
+<p>Get the last frame. </p>
+<dl class="section return"><dt>Returns</dt><dd>The last frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00261">261</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00292">292</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -791,7 +798,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the last actual frame. </p>
+<p>Set the last frame. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">frame</td><td></td></tr>
@@ -799,7 +806,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00266">266</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00297">297</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -821,7 +828,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number 3D points. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of stored 3D points </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00215">215</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00246">246</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -849,7 +856,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00220">220</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00251">251</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -871,7 +878,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of analog by frame. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of analog by frame </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00286">286</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00317">317</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -899,7 +906,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00291">291</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00322">322</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -921,7 +928,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of analogs. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of analogs </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00225">225</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00256">256</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -949,7 +956,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00233">233</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00264">264</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -971,7 +978,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of recorded analogs. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of recorded analogs </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00238">238</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00269">269</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -993,7 +1000,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of defined time events (0 to 18) </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of defined time events (0 to 18) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00343">343</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00374">374</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -1015,7 +1022,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of frames. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of frames </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00243">243</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00274">274</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1044,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the maximal gap used for interpolation. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximal gap used for interpolation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00271">271</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00302">302</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1066,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the number of zeros before the header starts in the file. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of zeros before the header starts in the file </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00200">200</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00209">209</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1088,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the byte at which the parameters start in the file. </p>
 <dl class="section return"><dt>Returns</dt><dd>The byte at which the parameters start in the file </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00205">205</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00214">214</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -1120,18 +1127,66 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00146">146</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00148">148</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ac9cf45546045f7a5fddaa17a9452ed08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9cf45546045f7a5fddaa17a9452ed08">&#9670;&nbsp;</a></span>scaleFactor()</h2>
+<a id="afacb1acc63d076d1399c33bfd28e5d6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacb1acc63d076d1399c33bfd28e5d6d">&#9670;&nbsp;</a></span>readProcessorType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceezc3d.html#a5f5dfbb526455657446d34188990c10b">ezc3d::PROCESSOR_TYPE</a> ezc3d::Header::readProcessorType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classezc3d_1_1c3d.html">c3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>c3d</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::fstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads the processor type in the parameter section, returns the file pointer where it was at the beggining of the function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="classezc3d_1_1c3d.html" title="Main class for C3D holder. ">c3d</a></td><td>C3D reference to copy the data in </td></tr>
+    <tr><td class="paramname">file</td><td>opened file stream to be read </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The processor type as specified in the <a class="el" href="classezc3d_1_1c3d.html" title="Main class for C3D holder. ">c3d</a> file (83-Intel, 84-DEC, 85-MIPS) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00219">219</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab05ee1a4202863609dbdaf607bc3e87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05ee1a4202863609dbdaf607bc3e87c">&#9670;&nbsp;</a></span>scaleFactor()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ezc3d::Header::scaleFactor </td>
+          <td class="memname">float ezc3d::Header::scaleFactor </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1143,12 +1198,12 @@ Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The scaling factor to convert the 3D point</dd></dl>
 <p>If the points are floats, then the scaling factor is if negative. Otherwise it is a integer </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00276">276</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00307">307</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a24602f5e5e8ccd1e57b67dd0cb00a0da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24602f5e5e8ccd1e57b67dd0cb00a0da">&#9670;&nbsp;</a></span>write()</h2>
+<a id="af3257bf364beb2fb986eb81d34c15db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3257bf364beb2fb986eb81d34c15db2">&#9670;&nbsp;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1157,8 +1212,18 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void ezc3d::Header::write </td>
           <td>(</td>
           <td class="paramtype">std::fstream &amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::streampos &amp;&#160;</td>
+          <td class="paramname"><em>dataStartPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1167,11 +1232,12 @@ Protected Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">f</td><td>Already opened fstream file with write access </td></tr>
+    <tr><td class="paramname">dataStartPosition</td><td>Returns the byte where to put the data start parameter </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00093">93</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8cpp_source.html#l00094">94</a> of file <a class="el" href="Header_8cpp_source.html">Header.cpp</a>.</p>
 
 </div>
 </div>
@@ -1198,7 +1264,7 @@ Protected Attributes</h2></td></tr>
 <p>Byte 1.2</p>
 <p>The checksum should be equals to 0x50 for a valid a <a class="el" href="classezc3d_1_1c3d.html" title="Main class for C3D holder. ">c3d</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00078">78</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00088">88</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1290,7 @@ Protected Attributes</h2></td></tr>
 <p>Byte 9 <br />
 The number of 256-byte blocks to get to the points and analogous data in the file </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00204">204</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00214">214</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1250,7 +1316,7 @@ The number of 256-byte blocks to get to the points and analogous data in the fil
 <p>Byte 13-147</p>
 <p>A fixed section of 0, this is defined by the standard for future use </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00251">251</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00261">261</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1342,7 @@ The number of 256-byte blocks to get to the points and analogous data in the fil
 <p>Byte 152</p>
 <p>A fixed section of 0, this is defined by the standard for future use </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00255">255</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00265">265</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1302,7 +1368,7 @@ The number of 256-byte blocks to get to the points and analogous data in the fil
 <p>Byte 198 <br />
 A fixed section of 0, this is defined by the standard for future use </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00259">259</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00269">269</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1328,7 +1394,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 235-256</p>
 <p>A fixed section of 0, this is defined by the standard for future use </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00263">263</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00273">273</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1353,7 +1419,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 </div><div class="memdoc">
 <p>Byte 189-197 </p><pre class="fragment">    The display flag. If it is 0x00, then it is ON.
     If it is 0x01, then it is OFF.  </pre> 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00325">325</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00335">335</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1377,7 +1443,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 </table>
 </div><div class="memdoc">
 <p>Byte 199-234 </p><pre class="fragment">         The event labels (4 characters by label)  </pre> 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00330">330</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00340">340</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1401,7 +1467,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 </table>
 </div><div class="memdoc">
 <p>Byte 153-188 </p><pre class="fragment">   The event times in seconds  </pre> 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00321">321</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00331">331</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1427,7 +1493,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 149</p>
 <p>The first block of key labels (if present) </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00309">309</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00319">319</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1451,9 +1517,9 @@ A fixed section of 0, this is defined by the standard for future use </p>
 </table>
 </div><div class="memdoc">
 <p>Byte 4</p>
-<p>The first actual frame in the file. Note, contrary to the way it is stored in the file, it is 0-based, i.e. the first frame is 0. </p>
+<p>The first frame in the file. Note, contrary to the way it is stored in the file, it is 0-based, i.e. the first frame is 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00134">134</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00144">144</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1479,7 +1545,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 150</p>
 <p>The four characters flag. If it is equal to 12345, then event labels are represented as 4 characters. Otherwise it is 2 characters. </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00312">312</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00322">322</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1505,7 +1571,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 11-12</p>
 <p>The points frame rate in Hz </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00233">233</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00243">243</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1531,7 +1597,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 148</p>
 <p>The present label flag. If it is equal to 12345, then label and range are present. </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00293">293</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00303">303</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1555,9 +1621,9 @@ A fixed section of 0, this is defined by the standard for future use </p>
 </table>
 </div><div class="memdoc">
 <p>Byte 5</p>
-<p>The last actual frame in the file. Note, contrary to the way it is stored in the file, it is 0-based, i.e. the first frame is 0. </p>
+<p>The last frame in the file. Note, contrary to the way it is stored in the file, it is 0-based, i.e. the first frame is 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00139">139</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00149">149</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1583,7 +1649,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 2</p>
 <p>The number of stored 3D points </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00092">92</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00102">102</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1609,7 +1675,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 10</p>
 <p>The number of analog by frame </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00216">216</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00226">226</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1635,7 +1701,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 3</p>
 <p>The total number of analogous data per point frame </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00110">110</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00120">120</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1661,7 +1727,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 151</p>
 <p>The number of defined time events (0 to 18) </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00317">317</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00327">327</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1687,7 +1753,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 6</p>
 <p>The maximal gap used for interpolation </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00177">177</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00187">187</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1712,7 +1778,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 </div><div class="memdoc">
 <p>If the header doesn't start at the begining of the file remember the zero counts </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00057">57</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00058">58</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
@@ -1738,12 +1804,12 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 1.1</p>
 <p>The byte at which the parameters start in the file </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00060">60</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00061">61</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
-<a id="aa3572627b388f048afc9abbaf412c270"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3572627b388f048afc9abbaf412c270">&#9670;&nbsp;</a></span>_scaleFactor</h2>
+<a id="acb3c5872b5b75b9b84040d8812ca2134"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb3c5872b5b75b9b84040d8812ca2134">&#9670;&nbsp;</a></span>_scaleFactor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1752,7 +1818,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ezc3d::Header::_scaleFactor</td>
+          <td class="memname">float ezc3d::Header::_scaleFactor</td>
         </tr>
       </table>
   </td>
@@ -1764,7 +1830,7 @@ A fixed section of 0, this is defined by the standard for future use </p>
 <p>Byte 7-8</p>
 <p>The scaling factor to convert the 3D point. If the points are floats, then the scaling factor is if negative </p>
 
-<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00189">189</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Header_8h_source.html#l00199">199</a> of file <a class="el" href="Header_8h_source.html">Header.h</a>.</p>
 
 </div>
 </div>
