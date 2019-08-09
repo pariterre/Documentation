@@ -87,9 +87,6 @@ $(function() {
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
-<code>#include &quot;<a class="el" href="Header_8h_source.html">Header.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Data_8h_source.html">Data.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Parameters_8h_source.html">Parameters.h</a>&quot;</code><br />
 </div>
 <p><a href="ezc3d_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -111,7 +108,7 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceezc3d_1_1ParametersNS_1_1GroupNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that holds the <a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Group.html" title="Group of parameter of a C3D file. ">Group</a> and <a class="el" href="classezc3d_1_1ParametersNS_1_1GroupNS_1_1Parameter.html" title="Parameter of a C3D file. ">Parameter</a> classes. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceezc3d_1_1DataNS"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceezc3d_1_1DataNS.html">ezc3d::DataNS</a></td></tr>
-<tr class="memdesc:namespaceezc3d_1_1DataNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that holds the <a class="el" href="classezc3d_1_1DataNS_1_1Data.html" title="Actual data of the C3D file. ">Data</a> hierarchy. <br /></td></tr>
+<tr class="memdesc:namespaceezc3d_1_1DataNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that holds the <a class="el" href="classezc3d_1_1DataNS_1_1Data.html" title="Data of the C3D file. ">Data</a> hierarchy. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceezc3d_1_1DataNS_1_1Points3dNS"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceezc3d_1_1DataNS_1_1Points3dNS.html">ezc3d::DataNS::Points3dNS</a></td></tr>
 <tr class="memdesc:namespaceezc3d_1_1DataNS_1_1Points3dNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that holds the <a class="el" href="classezc3d_1_1DataNS_1_1Points3dNS_1_1Points.html" title="Points holder for C3D data 3D points data. ">Points</a> hierarchy. <br /></td></tr>
@@ -129,11 +126,18 @@ Enumerations</h2></td></tr>
 <b>WORD</b> = 2, 
 <br />
 &#160;&#160;<b>FLOAT</b> = 4, 
-<b>NONE</b> = 10000
+<b>NO_DATA_TYPE</b> = 10000
 <br />
  }</td></tr>
 <tr class="memdesc:a13350acecd93c9eebd0c2fa414d9f2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum that describes the size of different types. <br /></td></tr>
 <tr class="separator:a13350acecd93c9eebd0c2fa414d9f2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5dfbb526455657446d34188990c10b"><td class="memItemLeft" align="right" valign="top"><a id="a5f5dfbb526455657446d34188990c10b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceezc3d.html#a5f5dfbb526455657446d34188990c10b">ezc3d::PROCESSOR_TYPE</a> { <b>INTEL</b> = 84, 
+<b>DEC</b> = 85, 
+<b>MIPS</b> = 86, 
+<b>NO_PROCESSOR_TYPE</b> = INTEL
+ }</td></tr>
+<tr class="memdesc:a5f5dfbb526455657446d34188990c10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of processor used to store the data. <br /></td></tr>
+<tr class="separator:a5f5dfbb526455657446d34188990c10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>

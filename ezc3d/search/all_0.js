@@ -42,8 +42,8 @@ var searchData=
   ['_5fparametersaddress',['_parametersAddress',['../classezc3d_1_1Header.html#aa64a21345ad1c7fd26b74803b5d24f47',1,'ezc3d::Header']]],
   ['_5fparametersstart',['_parametersStart',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a8b69c3ba6e166e64ecdc7b726f5ef8f4',1,'ezc3d::ParametersNS::Parameters']]],
   ['_5fpoints',['_points',['../classezc3d_1_1DataNS_1_1Frame.html#a6dc52ea1859c667e017a54bcb155aa27',1,'ezc3d::DataNS::Frame::_points()'],['../classezc3d_1_1DataNS_1_1Points3dNS_1_1Points.html#aa240e446230eb32ba19552d3fb4d71d8',1,'ezc3d::DataNS::Points3dNS::Points::_points()']]],
-  ['_5fprocessortype',['_processorType',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a4c5864dee741f8fd47eb2fc00dbc79d9',1,'ezc3d::ParametersNS::Parameters']]],
+  ['_5fprocessortype',['_processorType',['../classezc3d_1_1ParametersNS_1_1Parameters.html#a411f07ae1f2698132ac3a3f7a8da576e',1,'ezc3d::ParametersNS::Parameters']]],
   ['_5freadmatrix',['_readMatrix',['../classezc3d_1_1c3d.html#af8079a2fcb3398d3af957454e97c72cf',1,'ezc3d::c3d']]],
-  ['_5fscalefactor',['_scaleFactor',['../classezc3d_1_1Header.html#aa3572627b388f048afc9abbaf412c270',1,'ezc3d::Header']]],
+  ['_5fscalefactor',['_scaleFactor',['../classezc3d_1_1Header.html#acb3c5872b5b75b9b84040d8812ca2134',1,'ezc3d::Header']]],
   ['_5fsubframe',['_subframe',['../classezc3d_1_1DataNS_1_1AnalogsNS_1_1Analogs.html#ad9405a451a9218d310a41a005b1caf5d',1,'ezc3d::DataNS::AnalogsNS::Analogs']]]
 ];
