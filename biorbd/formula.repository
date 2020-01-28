@@ -1,0 +1,15 @@
+\form#0:$3.14159265358979323846$
+\form#1:$1$
+\form#2:$\frac{1}{\text{Acquisition frequency}}$
+\form#3:$FlCE_1 = 0.15$
+\form#4:$FlCE_2 = 0.45$
+\form#5:$FvCE_1 = 1$
+\form#6:$FvCE_2 = -\frac{0.33}{2} \frac{FvCE_1}{1+FvCE_1}$
+\form#7:$FlPE_1 = 10.0$
+\form#8:$FlPE_2 = 5.0$
+\form#9:$eccentricForceMultiplier = 1.8$
+\form#10:$damping = 0.1$
+\form#11:$maxShorteningSpeed = 10.0$
+\form#12:$-J \times F$
+\form#13:$J$
+\form#14:$F$
