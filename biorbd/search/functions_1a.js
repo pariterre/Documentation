@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['z_1248',['z',['../classbiorbd_1_1utils_1_1Quaternion.html#a75bd890a2f2522e390a4b9535eda414b',1,'biorbd::utils::Quaternion']]]
+  ['z_1261',['z',['../classbiorbd_1_1utils_1_1Quaternion.html#a563ef4bc9a7898e21fb2e1802f2916ef',1,'biorbd::utils::Quaternion']]]
 ];
