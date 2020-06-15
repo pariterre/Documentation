@@ -1,15 +1,15 @@
-\form#0:$3.14159265358979323846$
-\form#1:$1$
-\form#2:$\frac{1}{\text{Acquisition frequency}}$
-\form#3:$FlCE_1 = 0.15$
-\form#4:$FlCE_2 = 0.45$
-\form#5:$FvCE_1 = 1$
-\form#6:$FvCE_2 = -\frac{0.33}{2} \frac{FvCE_1}{1+FvCE_1}$
-\form#7:$FlPE_1 = 10.0$
-\form#8:$FlPE_2 = 5.0$
-\form#9:$eccentricForceMultiplier = 1.8$
-\form#10:$damping = 0.1$
-\form#11:$maxShorteningSpeed = 10.0$
-\form#12:$-J \times F$
-\form#13:$J$
-\form#14:$F$
+\_form#0=0x9:$3.14159265358979323846$
+\_form#1=0x9:$1$
+\_form#2=0x18:$\frac{1}{\text{Acquisition frequency}}$
+\_form#3=0x13:$FlCE_1 = 0.15$
+\_form#4=0x13:$FlCE_2 = 0.45$
+\_form#5=0x13:$FvCE_1 = 1$
+\_form#6=0x19:$FvCE_2 = -\frac{0.33}{2} \frac{FvCE_1}{1+FvCE_1}$
+\_form#7=0x13:$FlPE_1 = 10.0$
+\_form#8=0x13:$FlPE_2 = 5.0$
+\_form#9=0x13:$eccentricForceMultiplier = 1.8$
+\_form#10=0x13:$damping = 0.1$
+\_form#11=0x13:$maxShorteningSpeed = 10.0$
+\_form#12=0x10:$-J \times F$
+\_form#13=0x10:$J$
+\_form#14=0x9:$F$
